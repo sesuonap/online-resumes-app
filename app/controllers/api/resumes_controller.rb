@@ -13,5 +13,9 @@ class Api::ResumesController < ApplicationController
     #blah
   end 
 
+  def trey
+    #blah
+  end
+
 
 end
