@@ -1,0 +1,32 @@
+<%= @resume[:first_name] %>
+<%= @resume[:last_name] %>
+<%= @resume[:email] %>
+<%= @resume[:phone_number] %>
+<%= @resume[:bio] %>
+<%= @resume[:linkedin_url] %>
+<%= @resume[:personal_blog_url] %>
+<%= @resume[:github_url] %>
+<%= @resume[:photo_url] %>
+<%= @resume[:capstone_name] %>
+<%= @resume[:capstone_description] %>
+<%= @resume[:capstone_url] %>
+<br>
+<% @resume[:experiences].each do |experience| %>
+  <%= experience[:start_date] %>
+  <%= experience[:end_date] %>
+  <%= experience[:job_title] %>
+  <%= experience[:company_name] %>
+  <%= experience[:details] %>
+<% end %>
+<br>
+<% @resume[:educations].each do |education| %>
+  <%= education[:start_date] %>
+  <%= education[:end_date] %>
+  <%= education[:degree] %>
+  <%= education[:university_name] %>
+  <%= education[:details] %>
+<% end %>
+<br>
+<% @resume[:skills].each do |skill| %>
+  <%= skill[:skill_name] %>
+<% end %>
