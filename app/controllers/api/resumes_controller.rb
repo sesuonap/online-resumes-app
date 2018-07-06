@@ -9,6 +9,14 @@ class Api::ResumesController < ApplicationController
     # show controller action
   end 
 
+  def conrad
+    #blah
+  end 
+
+  def trey
+    #blah
+  end
+
 
 end
 app experiences
