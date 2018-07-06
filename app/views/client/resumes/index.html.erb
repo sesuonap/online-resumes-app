@@ -1,7 +1,16 @@
-
+<head>
+ 
   <% @resumes.each do |resume| %>
     <%= resume[:first_name] %>
     <%= resume[:last_name] %>
     <br>
-    
+    <%= resume[:photo] %>
+    <br>
+    <%= resume[:bio] %>
+    <br>
+    <br>
   <% end %>
+    
+</head>
+  
+

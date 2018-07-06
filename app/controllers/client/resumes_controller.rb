@@ -13,11 +13,15 @@ class Client::ResumesController < ApplicationController
                     id: 1,
                     first_name: "bob",
                     last_name: "jones",
+                    photo: "photo unavailable",
+                    bio: "a tested bio for this project we are doing"
                   }, 
                   {
                     id: 2, 
                     first_name: "trey", 
-                    last_name: "conrad"
+                    last_name: "conrad",
+                    photo: "photo unavailable",
+                    bio: "another tested bio for this project we are doing"
                   }
                 ]
     render 'index.html.erb'
