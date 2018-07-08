@@ -35,37 +35,37 @@ class Client::ResumesController < ApplicationController
                 linkein_url: "linkinin",
                 personal_blog_url: "dfgf",
                 github_url: "dfgdf",
-                photo_url: "fdhdf",
-                capstone_name: "dfgdf",
-                capstone_description: "dfgdfg",
-                capstone_url: "dfghfd",
+                photo_url: "photo",
+                capstone_name: "capstone",
+                capstone_description: "app",
+                capstone_url: "capstoneurl",
                 experiences: [
                               {
                               id: 1,
                               student_id: 1,
-                              start_date: "dfgfdg",
-                              end_date: "fdg",
-                              job_title: "gsdg",
-                              company_name: "xcfgfd",
-                              details: "fdgfd"
+                              start_date: "now",
+                              end_date: "tomorrow",
+                              job_title: "job",
+                              company_name: "actualize",
+                              details: "app"
                               }
                               ],
                 educations: [
                             {
                               id: 1,
                               student_id: 1,
-                              start_date: "fghfg",
-                              end_date: "dfg",
-                              degree: "dfgdf",
-                              university_name: "cfhfdg",
-                              details: "dfhdfg"
+                              start_date: "now",
+                              end_date: "tomorrow",
+                              degree: "Degree",
+                              university_name: "Actualize University",
+                              details: "app"
                               }
                             ],
                 skills: [
                          {
                           id: 1,    
                           student_id: 1,
-                          skill_name: "trey"
+                          skill_name: "skills"
                           }
                         ]
               }
